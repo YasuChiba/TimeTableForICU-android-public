@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">TimeTableForICU</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="action_settings" translatable="false">TableSettings</string>
+    <string name="title_activity_add_data" translatable="false">add_data</string>
+    <string name="title_activity_class_info" translatable="false">class_info</string>
+
+
+    <string-array name="week">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+    <string-array name="period">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>*4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="term">
+        <item>Spring</item>
+        <item>Autumn</item>
+        <item>Winter</item>
+    </string-array>
+
+    <string name="button_ok">     OK     </string>
+
+    <string name="icon_plus" translatable="false">&#xf067;</string>
+
+
+    <string-array name="year">
+
+        <item>2016</item>
+        <item>2017</item>
+
+    </string-array>
+
+
+    <string name="add_data_class_alredyExists">The class alredy exsits at :</string>
+    <string name="recyclerViewAdapter_MemoPressLongTodelete">Memo:Long press to delete</string>
+    <string name="add_data_fold_moreSettings">Fold</string>
+    <string name="add_data_showMore">Show More</string>
+    <string name="add_data_foldOrNot">The individual edited content will be deleated if you fold. Is it OK?</string>
+    <string name="add_data_putSchedule">Insert schedule</string>
+    <string name="add_data_schedule_alredayExists">The class exists in the selected time. Do you want to continue?</string>
+    <string name="class_info_deleteCardviewOrNot">delete?</string>
+    <string name="class_info_delete_class">Delete class data</string>
+    <string name="class_info_deleteClassOrNot">All datas related to this class are deleted</string>
+    <string name="class_info_modify_class">Edit Class data</string>
+    <string name="main_first_createTable">create table</string>
+    <string name="settings_for_table_setDefaultTable">set default table</string>
+    <string name="settings_for_table_tableCannnotDelete">only a table exsits</string>
+    <string name="settings_for_table_tableDeleteOrNot">delte table?</string>
+    <string name="settings_for_table_tableExists">table exsits</string>
+    <string name="settings_for_table_TableList">Table list</string>
+    <string name="settings_for_table_Setting">Setting</string>
+    <string name="settings_for_table_saturday">Sat</string>
+    <string name="settings_for_table_6period">6</string>
+    <string name="settings_for_table_7period">7</string>
+    <string name="settings_for_table_8period">8</string>
+    <string name="settings_for_table_SyllabusLang">Syllabus language</string>
+    <string name="settings_for_table_SettingLang">System language</string>
+    <string name="add_data_class_alredyExists_forSnackBar">The class already exists in the list.</string>
+    <string name="settings_for_table_fontSize">table font size</string>
+    <string name="setting_for_table_slideText">bottom text</string>
+    <string name="add_data_data_goneOrNot">The edited content will be deleated. Is it OK?</string>
+    <string name="add_data_class_alredyExists_OverwriteOrNot">  </string>
+    <string name="title_activity_user_policy" translatable="false">User_policy</string>
+
+
+</resources>

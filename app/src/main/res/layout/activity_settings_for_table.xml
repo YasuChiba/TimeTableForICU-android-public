@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/settingsForTable_root_rl"
+    tools:context="com.TimeTableForICU.yasuhirachiba.timetableforicu.SettingsForTable">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="1dp"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:id="@+id/settingsForTable_cardview">
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/settings_for_table_TableList"/>
+
+                        <com.TimeTableForICU.yasuhirachiba.timetableforicu.CustomListView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/settingsForTable_listview">
+
+
+                        </com.TimeTableForICU.yasuhirachiba.timetableforicu.CustomListView>
+
+
+
+                        <com.beardedhen.androidbootstrap.BootstrapButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/settingsForTable_add_button"
+                            android:layout_gravity="right"
+                            android:textAllCaps="false"
+                            android:text="BootstrapButton"
+                            app:bootstrapBrand="info"
+                            app:bootstrapSize="lg"
+                            app:buttonMode="regular"
+                            app:showOutline="false"
+                            app:roundedCorners="true"
+                            android:layout_margin="0dp"
+                            app:bootstrapText="Add"/>
+
+
+
+
+
+                    </LinearLayout>
+                </FrameLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="1dp"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:id="@+id/settingsForTable_cardview2">
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/settings_for_table_Setting"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/settings_for_table_saturday"
+                            android:layout_gravity="center_horizontal" />
+
+                        <Switch
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:showText="true"
+                            android:id="@+id/switch_saturday"
+                            android:layout_gravity="center_horizontal" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/settings_for_table_6period"
+                            android:layout_gravity="center_horizontal" />
+
+                        <Switch
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+
+                            android:showText="true"
+                            android:id="@+id/switch_6period"
+                            android:layout_gravity="center_horizontal" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/settings_for_table_7period"
+                            android:layout_gravity="center_horizontal" />
+
+                        <Switch
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:showText="true"
+                            android:id="@+id/switch_7period"
+                            android:layout_gravity="center_horizontal" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/settings_for_table_8period"
+                            android:layout_gravity="center_horizontal" />
+
+                        <Switch
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:showText="true"
+                            android:id="@+id/switch_8period"
+                            android:layout_gravity="center_horizontal" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/settings_for_table_SyllabusLang"
+                            android:layout_gravity="center_horizontal" />
+                        <Switch
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:showText="true"
+                            android:textOff="E"
+                            android:textOn="J"
+                            android:id="@+id/switch_syllabusLanguage"
+                            android:layout_gravity="center_horizontal" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/settings_for_table_SettingLang"
+                            android:layout_gravity="center_horizontal" />
+
+                        <Switch
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:showText="true"
+                            android:textOff="E"
+                            android:textOn="J"
+                            android:id="@+id/switch_settingsLanguage"
+                            android:layout_gravity="center_horizontal" />
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/setting_for_table_slideText"
+                            android:layout_gravity="center_horizontal" />
+
+                        <Switch
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:showText="true"
+                            android:textOff="Off"
+                            android:textOn="On"
+                            android:id="@+id/switch_slideText"
+                            android:layout_gravity="center_horizontal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/settings_for_table_fontSize"
+                            android:layout_gravity="center_horizontal" />
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/et_settingsFontSize"
+                            android:layout_gravity="center_horizontal" />
+                        
+                        <android.support.v4.widget.Space
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp" />
+
+
+                        <com.beardedhen.androidbootstrap.BootstrapButton
+                            android:layout_gravity="center"
+                            android:id="@+id/settings_bt_ok"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="BootstrapButton"
+                            app:bootstrapBrand="primary"
+                            app:bootstrapSize="lg"
+                            app:buttonMode="regular"
+                            app:showOutline="false"
+                            app:roundedCorners="true"
+                            android:layout_margin="0dp"
+                            app:bootstrapText="OK"
+                            />
+
+
+
+
+
+
+
+                    </LinearLayout>
+                </FrameLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

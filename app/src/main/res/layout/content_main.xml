@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/forBackground"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.TimeTableForICU.yasuhirachiba.timetableforicu.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/main_ll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/leftMargin_ll"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/forBackground" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/week"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/time_tv1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="center"
+                        android:text="8:50" />
+
+                    <TextView
+                        android:id="@+id/period1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="1" />
+
+
+                    <TextView
+                        android:id="@+id/time_tv2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:text="10:00" />
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/time_tv3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="center"
+                        android:text="10:10" />
+
+                    <TextView
+                        android:id="@+id/period2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="2" />
+
+
+                    <TextView
+                        android:id="@+id/time_tv4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:text="11:20" />
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameLayout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/time_tv5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="center"
+                        android:text="11:30" />
+
+                    <TextView
+                        android:id="@+id/period3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="3" />
+
+
+                    <TextView
+                        android:id="@+id/time_tv6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:text="12:40" />
+
+
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:id="@+id/frameLayout4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/time_tv7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="center"
+                        android:text="" />
+
+
+                    <TextView
+                        android:id="@+id/L4_margin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="L" />
+
+                    <TextView
+                        android:id="@+id/time_tv8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:text="" />
+
+
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:id="@+id/frameLayout5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/time_tv9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="center"
+                        android:text="13:50" />
+
+
+                    <TextView
+                        android:id="@+id/period4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="4" />
+
+                    <TextView
+                        android:id="@+id/time_tv10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:text="15:00" />
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameLayout6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/time_tv11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="center"
+                        android:text="15:10" />
+
+
+                    <TextView
+                        android:id="@+id/period5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="5" />
+
+                    <TextView
+                        android:id="@+id/time_tv12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:text="16:20" />
+
+
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:id="@+id/frameLayout7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/time_tv13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="center"
+                        android:text="16:30" />
+
+
+                    <TextView
+                        android:id="@+id/period6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="6" />
+
+                    <TextView
+                        android:id="@+id/time_tv14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:text="17:40" />
+
+
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:id="@+id/frameLayout8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/time_tv15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="center"
+                        android:text="17:50" />
+
+
+                    <TextView
+                        android:id="@+id/period7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="7" />
+
+                    <TextView
+                        android:id="@+id/time_tv16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:text="19:00" />
+
+
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:id="@+id/frameLayout9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/time_tv17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="center"
+                        android:text="19:10" />
+
+
+                    <TextView
+                        android:id="@+id/period8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="8" />
+
+                    <TextView
+                        android:id="@+id/time_tv18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:text="20:20" />
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/week1"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="Mon" />
+
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+
+                <Button
+                    android:id="@+id/button21"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button31"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/L4_margin1"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="#a4a3a3"
+                    android:gravity="center"
+                    android:text=" " />
+
+                <Button
+                    android:id="@+id/button41"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button51"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button61"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+
+                    android:id="@+id/button71"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="0dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button81"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="0dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/week2"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="Tue" />
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button22"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button32"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/L4_margin2"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="#a4a3a3"
+                    android:gravity="center"
+                    android:text=" " />
+
+                <Button
+                    android:id="@+id/button42"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button52"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button62"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button72"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="0dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button82"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="0dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/week3"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="Wed" />
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button23"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button33"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/L4_margin3"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="#a4a3a3"
+                    android:gravity="center"
+                    android:text=" " />
+
+                <Button
+                    android:id="@+id/button43"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button53"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button63"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button73"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="0dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button83"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="0dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/week4"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="Thu" />
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button24"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button34"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/L4_margin4"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="#a4a3a3"
+                    android:gravity="center"
+                    android:text=" " />
+
+                <Button
+                    android:id="@+id/button44"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button54"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button64"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button74"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="0dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button84"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="0dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/week5"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="Fri" />
+
+                <Button
+                    android:id="@+id/button15"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button25"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button35"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/L4_margin5"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="#a4a3a3"
+                    android:gravity="center"
+                    android:text=" " />
+
+                <Button
+                    android:id="@+id/button45"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button55"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button65"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button75"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="0dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button85"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="0dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/saturday_ll"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/week6"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="Sat" />
+
+                <Button
+                    android:id="@+id/button16"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button26"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button36"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/L4_margin6"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="#a4a3a3"
+                    android:gravity="center"
+                    android:text=" " />
+
+                <Button
+                    android:id="@+id/button46"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button56"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button66"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button76"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="0dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/button86"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="0dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/border"
+                    android:text="New Button"
+                    android:textSize="10dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/rightMargin_ll"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/rightMargin_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_for_rightmargin" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/bottom_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/bottom_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:lines="1"
+                android:text="ご意見、感想、バグ報告等はfacebookかレビュー欄まで" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

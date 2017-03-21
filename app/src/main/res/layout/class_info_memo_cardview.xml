@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bootstrapbutton="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:id="@+id/cardLayout"
+    android:elevation="10dp">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="1dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:id="@+id/cl_info_memo_cardView"
+      >
+
+        <!-- カードに載せる情報 -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:paddingBottom="10dp"
+            android:id="@+id/cardRelative"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:typeface="serif"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+
+                    android:id="@+id/cl_info_memoRow_tvForDate"
+
+                    />
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/cl_info_memo_ll">
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Picture"/>
+
+
+
+
+
+                <com.TimeTableForICU.yasuhirachiba.timetableforicu.ExpandableHeightGridView
+                    android:id="@+id/cl_info_pict_gridView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:verticalSpacing="5dp"
+                    android:horizontalSpacing="5dp"
+                    android:numColumns="3"
+                    >
+
+
+
+                </com.TimeTableForICU.yasuhirachiba.timetableforicu.ExpandableHeightGridView>
+
+
+
+
+                <com.beardedhen.androidbootstrap.BootstrapButton
+                    android:layout_gravity="right"
+                    android:id="@+id/cl_info_memoRow_showMorePict_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BootstrapButton"
+                    app:bootstrapBrand="info"
+                    app:bootstrapSize="lg"
+                    app:buttonMode="regular"
+                    app:showOutline="false"
+                    app:roundedCorners="true"
+                    android:layout_margin="5dp"
+                    app:bootstrapText="更に表示"
+                    />
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </FrameLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

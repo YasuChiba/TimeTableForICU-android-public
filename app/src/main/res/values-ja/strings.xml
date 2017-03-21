@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TimeTableForICU</string>
+
+   <string name="main_first_createTable">テーブルを作成</string>
+    
+    <string name="add_data_fold_moreSettings">たたむ</string>
+    <string name="add_data_foldOrNot">個別に設定された内容は消えますが、畳みますか？</string>
+    <string name="add_data_showMore">詳細設定</string>
+ <string name="add_data_putSchedule">時間を入れてください</string>
+    <string name="add_data_data_goneOrNot">編集した内容は消えますが良いですか？</string>
+    <string name="add_data_schedule_alredayExists">にはすでに授業が存在します。追加しますか？</string>
+
+
+    <string name="class_info_deleteCardviewOrNot">削除しますか？</string>
+    <string name="class_info_deleteClassOrNot">この授業に関連する情報をすべて削除しますか？　他のコマも消えます。</string>
+
+    <string name="recyclerViewAdapter_MemoPressLongTodelete">Memo : 長押しで削除</string>
+    
+    
+    
+    <string name="settings_for_table_tableExists">この名前のテーブルはすでに存在します</string>
+    <string name="settings_for_table_setDefaultTable">デフォルトのテーブルにしますか？</string>
+    <string name="settings_for_table_tableCannnotDelete">テーブルが一つしか存在しないので削除できません</string>
+    <string name="settings_for_table_tableDeleteOrNot">このテーブルを削除しますか？</string>
+    <string name="settings_for_table_fontSize">テーブルのフォントサイズ</string>
+    <string name="settings_for_table_saturday">Sat</string>
+    <string name="settings_for_table_6period">6</string>
+    <string name="settings_for_table_7period">7</string>
+    <string name="settings_for_table_8period">8</string>
+ <string name="button_ok">OK</string>
+ <string name="add_data_class_alredyExists">次の時間にはすでにクラスが存在します:</string>
+    <string name="add_data_class_alredyExists_forSnackBar">この時間はすでにリストにあります</string>
+ <string name="add_data_class_alredyExists_OverwriteOrNot"> </string>
+    <string name="settings_for_table_Setting">設定</string>
+    <string name="settings_for_table_SettingLang">システムの言語</string>
+    <string name="settings_for_table_SyllabusLang">シラバスの言語</string>
+    <string name="settings_for_table_TableList">時間割リスト</string>
+    <string name="setting_for_table_slideText">下部余白のテキスト</string>
+    <string name="class_info_delete_class">授業を削除</string>
+    <string name="class_info_modify_class">授業を編集</string>
+
+
+
+
+    <string-array name="week">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+    <string-array name="period">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>*4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="term">
+        <item>Spring</item>
+        <item>Autumn</item>
+        <item>Winter</item>
+    </string-array>
+
+
+    <string-array name="year">
+
+        <item>2016</item>
+        <item>2017</item>
+
+    </string-array>
+
+
+</resources>

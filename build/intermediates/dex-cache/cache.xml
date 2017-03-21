@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.beardedhen/androidbootstrap/2.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1fa232b911d639fca8d5d2f6c5541edcebf4cfee">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/pre-dexed/release/com.beardedhen-androidbootstrap-2.3.0_0b8e8e6c19946cd3ddd1df25a3b6a249c21a6c4d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YasuhiraChiba/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.3.1_0c30603d03001e2701c63e3d9b9995036db285e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b960e4e7577d0cf2b42a0f8bbe79fd33d1d960a2">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_bc2eb1effa1e68cc0c7614b71ecb0b15550d3d8f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.10.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f40cf334cdc8b098b74312e21c7741c6eefbeb0e">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.getbase-floatingactionbutton-1.10.1_60caf8c51065926bf9ba6fca366e3ce7e6f82fd5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.github.chrisbanes/PhotoView/1.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="81d41e53c215976ce172b9f61ef1e8fc2d67cf79">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.chrisbanes-PhotoView-1.3.0_170ddb9f5a997a27551a8dabd4df40d2ce0af465/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/org/jetbrains/kotlin/kotlin-stdlib/1.0.0/kotlin-stdlib-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2db5ac6eb2746708e77e4c439625f9331c25e766">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/pre-dexed/release/kotlin-stdlib-1.0.0_059e4f979aac6d6a20d40939683cc9f4bee2a3b7.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.0_0ca6839b16757f8c4f8ff65f014d11e78c8d7646/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-24.2.0_43300d2767d7dbbc83e1cfb634042d66429326dc.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YasuhiraChiba/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_c134fe064328a70b311178ae0168f60ec58ca72f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_d05e6f9cb3339808a41fd8b8197025fd2a260ac9/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/me.priyesh/chroma/1.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="76043dab5454efc14b69cbd3de807dbdc4d62a7f">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/pre-dexed/release/me.priyesh-chroma-1.0.2_76724ba2fea1a49b716db2c39ec79b19fda7e214.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_d5957369d91bed633b84b8fc573de1a63a428825/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.0_592cd3c72a7f9f981cf35ff54682e990eb42976b/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="96e33a7aaee00ab64270e2a9887b8f9ef32c8b73">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/pre-dexed/release/com.android.support-cardview-v7-24.2.0_3e929691a006cea80a8ba50bb9d3782f53857740.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/org/jetbrains/kotlin/kotlin-runtime/1.0.0/kotlin-runtime-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8739b3cd3bf98584cf2d1cabf59b55dbd5f7349d">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/pre-dexed/release/kotlin-runtime-1.0.0_95a0bb5db4380016fc0bd3de84e8f8f7ff1e814b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/pre-dexed/release/internal_impl-24.2.0_ca644d8588d59a8dac08f51b4240783c64dc9cf1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/pre-dexed/release/com.android.support-design-24.2.0_a8e77c021e57e6fc12bb0b40e369ae68e88230a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/pre-dexed/release/com.android.support-support-compat-24.2.0_4abffad29eec94f6d35f2f35f79ac87bc5ae4927.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/pre-dexed/release/com.android.support-recyclerview-v7-24.2.0_0b29696bd78a7e69a3fe2469ad8073d450a78eaa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/pre-dexed/release/com.android.support-support-vector-drawable-24.2.0_ba244ba381b8bee450751409128ec259b7218592.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.0_3967bc3c7d8a8ec73c190c77d8f10b859c768c5a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.0_4737b9aff4cd56c90d6b192c1360d48fd055bbc8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.0_6903c8c6a04e391321a162475df49cff49ba7a3f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YasuhiraChiba/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_3e3b2170e374710c8e077c11538d1327d05df5d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_fa49d8d2ecabe1494aa28e1c7cd361481e937010/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/pre-dexed/release/internal_impl-24.2.0_dd29b47ecdef3fd7c3300d03771d431e54bf974b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/pre-dexed/release/com.android.support-support-core-utils-24.2.0_578abf516dd8ed127469917a18262cfe9009d5f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.10.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f40cf334cdc8b098b74312e21c7741c6eefbeb0e">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/pre-dexed/release/com.getbase-floatingactionbutton-1.10.1_60caf8c51065926bf9ba6fca366e3ce7e6f82fd5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/YasuhiraChiba/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/pre-dexed/release/gson-2.3.1_0c30603d03001e2701c63e3d9b9995036db285e7.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.beardedhen/androidbootstrap/2.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1fa232b911d639fca8d5d2f6c5541edcebf4cfee">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.beardedhen-androidbootstrap-2.3.0_0b8e8e6c19946cd3ddd1df25a3b6a249c21a6c4d/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-24.2.0_3967bc3c7d8a8ec73c190c77d8f10b859c768c5a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.0_43300d2767d7dbbc83e1cfb634042d66429326dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_ca644d8588d59a8dac08f51b4240783c64dc9cf1/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.github.chrisbanes/PhotoView/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="81d41e53c215976ce172b9f61ef1e8fc2d67cf79">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/pre-dexed/release/com.github.chrisbanes-PhotoView-1.3.0_170ddb9f5a997a27551a8dabd4df40d2ce0af465.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/pre-dexed/release/com.android.support-support-fragment-24.2.0_0ca6839b16757f8c4f8ff65f014d11e78c8d7646.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/pre-dexed/release/internal_impl-24.2.0_d05e6f9cb3339808a41fd8b8197025fd2a260ac9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/YasuhiraChiba/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/pre-dexed/release/support-annotations-24.2.0_c134fe064328a70b311178ae0168f60ec58ca72f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/org/jetbrains/kotlin/kotlin-stdlib/1.0.0/kotlin-stdlib-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2db5ac6eb2746708e77e4c439625f9331c25e766">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/kotlin-stdlib-1.0.0_059e4f979aac6d6a20d40939683cc9f4bee2a3b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/pre-dexed/release/com.android.support-support-core-ui-24.2.0_592cd3c72a7f9f981cf35ff54682e990eb42976b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="96e33a7aaee00ab64270e2a9887b8f9ef32c8b73">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.2.0_3e929691a006cea80a8ba50bb9d3782f53857740/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/org/jetbrains/kotlin/kotlin-runtime/1.0.0/kotlin-runtime-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8739b3cd3bf98584cf2d1cabf59b55dbd5f7349d">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/kotlin-runtime-1.0.0_95a0bb5db4380016fc0bd3de84e8f8f7ff1e814b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/me.priyesh/chroma/1.0.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="76043dab5454efc14b69cbd3de807dbdc4d62a7f">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/me.priyesh-chroma-1.0.2_76724ba2fea1a49b716db2c39ec79b19fda7e214/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.0_a8e77c021e57e6fc12bb0b40e369ae68e88230a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.0_4abffad29eec94f6d35f2f35f79ac87bc5ae4927/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.0_0b29696bd78a7e69a3fe2469ad8073d450a78eaa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.0_ba244ba381b8bee450751409128ec259b7218592/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/pre-dexed/release/com.android.support-support-media-compat-24.2.0_4737b9aff4cd56c90d6b192c1360d48fd055bbc8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4888caf2a94963db4b0bcc6fcd6e8429fbc5ed88">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c740c4af5677721d64ff84a16e2fcb99153c092b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.0_578abf516dd8ed127469917a18262cfe9009d5f7/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/pre-dexed/release/internal_impl-24.2.0_fa49d8d2ecabe1494aa28e1c7cd361481e937010.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_dd29b47ecdef3fd7c3300d03771d431e54bf974b/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/YasuhiraChiba/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/pre-dexed/release/glide-3.7.0_3e3b2170e374710c8e077c11538d1327d05df5d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/pre-dexed/release/internal_impl-24.2.0_d5957369d91bed633b84b8fc573de1a63a428825.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/Users/YasuhiraChiba/Documents/GitHub/TimeTableForICU-android/app/build/intermediates/pre-dexed/release/com.android.support-animated-vector-drawable-24.2.0_6903c8c6a04e391321a162475df49cff49ba7a3f.jar" />
+    </item>
+
+</items>
